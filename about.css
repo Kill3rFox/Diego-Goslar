@@ -36,7 +36,7 @@ p
 {
 	color: white;
 	text-align: center;
-	padding-bottom: 10px;
+	padding: 0 1% 10px 1%;
 }
 
 /* Div for Computer */
@@ -67,12 +67,15 @@ p
 	color: #8b0000;
 	text-decoration: none;
 }
+.bhyp a:hover { color: #DC0000; }
 
 .fig1 a
 {
 	color: #CF9FFF;
 	text-decoration: none;
 }
+.fig1 a:hover { color: #D9B3FF; }
+
 
 /* Mobile Styles */
 @media only screen and (max-width: 480px)

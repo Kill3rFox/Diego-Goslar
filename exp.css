@@ -21,7 +21,7 @@ header
 	top: 0;
 	left: 0;
 	width: 100%;
-	padding: 30px 100px;
+	padding: 30px 10%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -32,12 +32,13 @@ header ul
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap:wrap;
 }
 
 header ul li 
 {
 	list-style: none;
-	margin-left: 20px;
+	margin: 10px 10px 0 10px;
 }
 
 header ul li a
@@ -54,7 +55,14 @@ header ul li a:hover
 	color: #2b1055;
 }
 
-
+@media (max-width: 300px) {
+	header {display: block;}
+	header ul {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+  }
 
 
 
