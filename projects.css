@@ -1,4 +1,5 @@
 /* Dis stuff */
+
 article h2
 {
 	text-align: center;
@@ -61,4 +62,8 @@ body article ul li a
 	color: #CF9FFF;
 	text-decoration: none;
 }
+body article ul li a:hover { color: #D9B3FF; }
 
+@media (max-width: 700px) {
+	h1 { padding-top: 240px; }
+}

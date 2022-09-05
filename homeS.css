@@ -4,11 +4,11 @@ h1
 	text-align: center;
 	padding-top: 200px;
 	color: #fff;
-	font-size: 50px;
+	font-size: min(8vw, 50px);
 }
 p
 {
-	padding-top: 10px;
+	padding: 10px 2% 0;
 	text-align: center;
 	color: #fff;
 }
@@ -29,4 +29,9 @@ p
   to { width: 100% }
 }
 
-
+@media (max-width: 300px) {
+  h1 {
+    font-size: 11vw;
+    padding-top: 240px;
+  }
+}
