@@ -1,0 +1,64 @@
+/* Dis stuff */
+article h2
+{
+	text-align: center;
+	padding-top: 20px;
+	color: white;
+}
+
+article p 
+{
+	text-align: center;
+	color: white;
+}
+
+/* Start of the page styles */
+h1
+{
+	color:white;
+	text-align:center;
+	padding-top: 10%;
+}
+.inp
+{
+	color:white;
+	text-align:center;
+	padding-top: 20px;
+	
+}
+/* Project Styles */
+.projs
+{
+	margin-left:auto;
+	margin-right: auto;
+	color: white;
+}
+
+/* lists */
+ul li 
+{
+	color: white;
+	text-align: center;
+}
+
+/* Fun little effect */
+.typewriter h1 {
+  overflow: hidden; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+body article ul li a
+{
+	color: #CF9FFF;
+	text-decoration: none;
+}
+
