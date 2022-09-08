@@ -2,7 +2,7 @@
 let slideIndex = 0;
 showSlides();
 
-window.alert("This page is experimental and unfinished");
+window.alert("This page is a work in progress");
 
 function showSlides() {
   let i;
