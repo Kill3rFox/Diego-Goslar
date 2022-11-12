@@ -1,0 +1,115 @@
+/* Styles for pictures */
+.fig1
+{
+	padding-top: 100px;
+	padding-bottom: 30px;
+	text-align: center;
+	color: white;
+}
+.AR60
+{
+	color:white;
+	text-align: center;
+}
+.fig2
+{
+	text-align: center;
+	width: 100%;
+}
+.fig3, .fig4
+{
+	color: white;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+/* Heading styles */
+h2, h3
+{
+	color: white;
+	text-align: center;
+}
+h3
+{
+	padding-top: 10px;
+}
+
+/* List styles */
+ul li
+{
+	color: white;
+	text-align: center;
+}
+
+/* Paragraph styles */
+p
+{
+	color: white;
+	text-align: center;
+	padding: 0 1% 10px 1%;
+}
+
+/* Div for Computer */
+@media only screen and (min-width: 769px){
+	div.row{
+		clear: both;
+	}
+	div.row:after{
+		clear: both;
+		content: "";
+		display: table;
+	}
+
+	div[class^="col-"]{
+		float: left;
+	}
+	div.col-1-2{width: 100%;}
+
+	div{
+		outline: 3px solid white;
+	}
+	
+}
+
+/* links */
+.bhyp a
+{
+	color: #8b0000;
+	text-decoration: none;
+}
+.bhyp a:hover { color: #DC0000; }
+
+.fig1 a
+{
+	color: #CF9FFF;
+	text-decoration: none;
+}
+.fig1 a:hover { color: #D9B3FF; }
+
+
+/* Mobile Styles */
+@media only screen and (max-width: 480px)
+{
+	p
+	{
+		text-align:center;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	
+	h2, h3
+	{
+		text-align: center;
+	}
+	
+	/*navigation
+	.navicon
+	{
+		height: 6px;
+		width: 34px;
+		margin: 20px;
+		border-top: 18px double #000;
+		border-bottom: 6px solid #000;
+		font-size:0;
+	}*/
+}
